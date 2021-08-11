@@ -1,0 +1,65 @@
+body {
+  color: #0000ff;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  //
+}
+.fav {
+  text-decoration: none;
+  color: blue;
+  transition: all 200ms ease-in-out;
+}
+.fav:hover {
+  color: red;
+}
+
+.location-search {
+  border-radius: 10px;
+}
+.forecast-day,
+.forecast-icon,
+.forecast-temp {
+  text-align: center;
+}
+.current-location {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.current-standout {
+  text-shadow: 2px 2px 2px rgb(0, 0, 190, 0.2);
+}
+.current-icon {
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+.current-temp {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.current-feels {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.current-humidity {
+}
+
+.location-search {
+  width: 70%;
+}
+.forecast-icon {
+  font-size: 24px;
+  font-family: var(--bs-font-sans-serif);
+}
+.current-row {
+  padding: 10px 0 30px;
+}
