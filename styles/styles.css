@@ -63,3 +63,7 @@ body {
 .current-row {
   padding: 10px 0 30px;
 }
+
+.github-link {
+  text-align: center;
+}
